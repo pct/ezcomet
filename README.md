@@ -1,4 +1,4 @@
-# Ezcomet
+# Ezcomet Ruby SDK
 
 TODO: Write a gem description
 
