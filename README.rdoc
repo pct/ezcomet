@@ -1,3 +1,0 @@
-== ezcomet
-
-A gem that provides...
