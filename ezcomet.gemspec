@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["linpct@gmail.com"]
   gem.description   = %q{EZComet is the best realtime web message pushing solution. And this is ezcomet ruby sdk.}
   gem.summary       = %q{Ezcomet Ruby SDK}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/pct/ezcomet"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
