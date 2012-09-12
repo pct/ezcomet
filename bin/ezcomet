@@ -1,6 +1,0 @@
-#!/usr/bin/env ruby
-
-require 'ezcomet'
-
-puts Ezcomet.push 1, 2, 3, 4
-puts Ezcomet.flush 1, 2, 3

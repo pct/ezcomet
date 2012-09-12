@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Ezcomet::VERSION
   gem.authors       = ["Jin-Sih Lin"]
   gem.email         = ["linpct@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{EZComet is the best realtime web message pushing solution. And this is ezcomet ruby sdk.}
+  gem.summary       = %q{Ezcomet Ruby SDK}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)

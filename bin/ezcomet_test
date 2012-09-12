@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'ezcomet'
+
+puts Ezcomet.push 'Your API Key', 'User Name', 'Channel Name', 'Test Message'
+puts Ezcomet.flush 'Your API Key', 'User Name', 'Channel Name'

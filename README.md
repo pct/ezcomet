@@ -1,6 +1,8 @@
 # Ezcomet Ruby SDK
 
-TODO: Write a gem description
+EZComet is the best realtime web message pushing solution.
+
+This gem is Ezcomet Ruby SDK.
 
 ## Installation
 
@@ -16,9 +18,13 @@ Or install it yourself as:
 
     $ gem install ezcomet
 
-## Usage
+## Usage (Sample Code)
 
-TODO: Write usage instructions here
+    #!/usr/bin/env ruby
+    require 'ezcomet'
+
+    puts Ezcomet.push 'Your API Key', 'User Name', 'Channel Name', 'Test Message'
+    puts Ezcomet.flush 'Your API Key', 'User Name', 'Channel Name'
 
 ## Contributing
 
